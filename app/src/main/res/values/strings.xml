@@ -5,9 +5,11 @@
 
     <string name="regtvTitleEmail">Email:</string>
     <string name="regtvTitlePassword">Password:</string>
-    <string name="regtvTitleName">Name:</string>
+    <string name="regtvTitleFirstName">First Name:</string>
+    <string name="regtvTitleLastName">Last Name:</string>
     <string name="register">Register</string>
-    <string name="regname">Enter Your Full Name</string>
+    <string name="regFirstname">Enter Your First Name</string>
+    <string name="regLasttname">Enter Your Last Name</string>
     <string name="refemail">Example@gmail.com</string>
     <string name="regpwd">Enter Password</string>
 

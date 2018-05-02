@@ -7,6 +7,10 @@
     android:orientation="vertical"
     android:id="@+id/drawerLayout">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,13 +36,13 @@
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
             android:fontFamily="casual"
-            android:text="@string/regtvTitleName"
+            android:text="@string/regtvTitleFirstName"
             android:textColor="#4b2000"
             android:textSize="18sp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/regEtName"
+            android:id="@+id/regEtFirstName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -46,7 +50,33 @@
             android:layout_marginTop="10dp"
             android:ems="10"
             android:fontFamily="casual"
-            android:hint="@string/regname"
+            android:hint="@string/regFirstname"
+            android:inputType="textPersonName"
+            android:textColor="#4b2000"
+            android:textColorHint="#4b2000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:text="@string/regtvTitleLastName"
+            android:textColor="#4b2000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/regEtLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="@string/regLasttname"
             android:inputType="textPersonName"
             android:textColor="#4b2000"
             android:textColorHint="#4b2000" />
@@ -122,6 +152,8 @@
             android:textStyle="bold" />
 
     </LinearLayout>
+
+    </ScrollView>
     <android.support.design.widget.NavigationView
         android:id="@+id/navView"
         android:layout_width="wrap_content"
